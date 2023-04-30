@@ -1,0 +1,80 @@
+.Heading {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 5vw;
+  margin-top: 2vw;
+  text-align: center;
+  color: rgb(22, 65, 69);
+}
+.HomePage {
+  position: absolute;
+  background-color: rgb(186, 218, 237);
+  width: 80%;
+  height: 95%;
+}
+
+.flexbox {
+  display: flex;
+  gap: 3em;
+  margin-top: 3em;
+  margin-left: 4em;
+  position: relative;
+}
+
+.items {
+  height: 5em;
+  width: 21em;
+  padding: 6em 0em;
+  background-color: rgb(149, 202, 248);
+  border-radius: 1em;
+}
+
+.Recents {
+  margin-top: 2em;
+  text-align: left;
+  margin-left: 5em;
+  margin-right: 4em;
+  color: rgb(22, 65, 69);
+}
+
+.top_middle {
+  position: absolute;
+  top: 0em;
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: rgb(22, 65, 69);
+  font-weight: 700;
+}
+
+.data {
+  position: relative;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.table_heading {
+  display: flex;
+  gap: 10em;
+
+  font-weight: bold;
+  margin-left: 1em;
+}
+.entries1 {
+  display: flex;
+  gap: 8em;
+  align-items: stretch;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 1em;
+}
+.h_line {
+  margin: 1em 0.5em;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: white;
+}

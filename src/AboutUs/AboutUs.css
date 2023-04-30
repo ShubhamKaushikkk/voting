@@ -1,0 +1,32 @@
+.About{
+        position: absolute;
+        background-color: rgb(186, 218, 237);
+        width: 80%;
+        height: 95%;
+  
+}
+.Heading {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    color: rgb(22, 65, 69);
+}
+
+
+.h_line{
+    margin: 1em 1em;
+    border-width: 2px;
+    border-style:solid;
+    border-color: white;
+    color:white;
+    background-color:white;
+}
+
+
+.text{
+    margin: 0em 2em;
+    text-align: left;
+    font-weight: 500;
+}

@@ -1,0 +1,62 @@
+.Body {
+  position: absolute;
+  background-color: rgb(186, 218, 237);
+  width: 80%;
+  height: 95%;
+}
+
+.scan {
+  position: absolute;
+  left: 35%;
+  margin-left: 0%;
+  margin-top: 3em;
+  height: 2.5em;
+  font-size: 15px;
+  border: 0;
+  border-radius: 8px;
+  width: 25%;
+  font-weight: bold;
+  color: white;
+  background-color: deepskyblue;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+}
+.scan1 {
+  /* position: absolute; */
+  background-color: rgb(186, 218, 237);
+  height: 500px;
+  width: 500px;
+  /* font-style: none; */
+  border: none;
+}
+
+.loader {
+  position: absolute;
+  top: 175px;
+  left: 40%;
+  margin: 5% auto;
+  border: 15px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  border-top: 15px solid rgb(131, 200, 248);
+  width: 120px;
+  height: 120px;
+  animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.heading {
+  color: rgb(22, 65, 69);
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  /* margin-left: 5vw; */
+  margin-top: 2vw;
+}

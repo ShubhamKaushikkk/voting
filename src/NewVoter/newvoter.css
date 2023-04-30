@@ -1,0 +1,77 @@
+.Voter{
+    position: absolute;
+        background-color: rgb(186, 218, 237);
+        width: 80%;
+        height: 95%;
+}
+
+.left_side{
+    width:22vw;
+    /* background-color: azure; */
+    text-align: center;
+}
+.right_side{
+    position: absolute;
+    width:22vw;
+    top:14%;
+    margin-right: 5%;
+    /* background-color: azure; */
+    text-align: center;
+    margin-left: 50%;
+}
+.style_form{
+    text-align:left;
+    margin-left: 10%;
+}
+
+.Heading {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    color: rgb(22, 65, 69);
+}
+
+.button1 {
+    font-size: 15px;
+    color: black;
+    width: 20vw;
+    height:2em;
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+}
+
+.fields {
+    border-radius: 10px;
+    width: 20vw;
+    height:2.3em;
+    padding: 10 px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+}
+
+.Proceed {
+    margin-left: 59%;
+    margin-top: 0vw;
+    height:2.5em;
+    font-size: 15px;
+    border:0;
+    border-radius: 8px;
+    width: 25%;
+    font-weight: bold;
+    color: white;
+    background-color: deepskyblue;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+}
+
+.drop {
+    border-radius: 10px;
+        width: 20vw;
+        height: 2.3em;
+        padding: 10 px;
+        border: 0;
+        box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+}
